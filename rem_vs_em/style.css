@@ -1,0 +1,19 @@
+.parrafo1,
+.parrafo2 {
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: lightblue;
+}
+
+.padre {
+  font-size: 5px;
+}
+
+.padre p {
+  background-color: greenyellow;
+  padding: 3em;
+  font-size: 3em;
+}
+
+/*rem este se refiere a su elemento raiz (html)
+  em  se refiere a su elemento padre*/
