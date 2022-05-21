@@ -1,0 +1,38 @@
+/*font-family: 'Cabin', sans-serif;
+font-family: 'Lobster', cursive;*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.mb-30 {
+  margin-bottom: 50px;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+.navbar-brand {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+}
+.bg-darkgrey {
+  background-color: #373a3c;
+}
+.header-title {
+  width: 20rem;
+}
+.carousel-indicators {
+  top: 15.5rem;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 992px) {
+  .carousel {
+    display: none;
+  }
+}
