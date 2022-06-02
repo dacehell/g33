@@ -1,0 +1,32 @@
+body {
+  font-size: 3rem;
+  font-weight: bold;
+}
+/*especificidad*/
+:root {
+  --pepito: green;
+  --black: #000000;
+  --yellow: yellow;
+  --gray: gray;
+}
+#hola-mundo {
+  background-color: chartreuse !important;
+}
+.parrafo1 {
+  color: var(--pepito);
+}
+
+.parrafo1 {
+  color: red;
+}
+
+.parrafo1 {
+  color: white;
+  background-color: blueviolet;
+}
+p {
+  background-color: var(--pepito);
+}
+.mensaje {
+  background-color: brown;
+}

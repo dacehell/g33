@@ -1,0 +1,27 @@
+body {
+  font-size: 2rem;
+}
+
+ol ol {
+  list-style-type: lower-latin;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+ul li::before {
+  content: "%";
+}
+button {
+  padding: 30px 80px;
+  font-size: 2rem;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+}
+.fuente {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+}

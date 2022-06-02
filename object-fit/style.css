@@ -1,0 +1,39 @@
+body {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+.content__img {
+  width: 230px;
+  height: 300px;
+  border: 1px solid red;
+}
+.parrafo {
+  width: 230px;
+}
+
+.content__img--fill {
+  object-fit: fill;
+}
+.content__img--contain {
+  object-fit: contain;
+}
+.content__img--cover {
+  object-fit: cover;
+  object-position: right;
+  transition: object-position 0.3s;
+}
+.content__img--cover:hover {
+  object-position: center;
+  border-color: blue;
+}
+.content__img--none {
+  object-fit: none;
+  object-position: center top;
+}
+.content__img--scale-down {
+  object-fit: scale-down;
+}
