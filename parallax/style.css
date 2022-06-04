@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: aliceblue;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.bg {
+  background-color: darkcyan;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  max-width: 1080px;
+  width: 100%;
+  margin: auto;
+  padding: 32px;
+  height: 50vh;
+}
+.center {
+  text-align: center;
+}
+
+.parallax {
+  height: 500px;
+  background-image: url("https://www.xtrafondos.com/descargar.php?id=4257&resolucion=3840x2160");
+  background-size: cover;
+  background-attachment: fixed;
+}
